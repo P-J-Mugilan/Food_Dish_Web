@@ -1,0 +1,72 @@
+/* Footer Section */
+#foot_section {
+    background-color: black;
+    color: white;
+    padding: 30px 50px;
+    text-align: center;
+}
+
+/* Footer Sections */
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.footer-section div {
+    flex: 1;
+    padding: 10px;
+}
+
+/* Section Titles with Red Icons */
+.footer-section h3 {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+/* Section Text Alignment */
+.footer-section p {
+    text-align: left;
+    margin: 5px 0;
+    font-size: 16px;
+    color: #ddd;
+}
+
+.follow-us #icon{
+    display: flex;
+    font-size: 25px;
+    gap: 10px;
+}
+
+
+
+/* Horizontal Line */
+.footer-line {
+    border-top: 1px solid white;
+    margin: 30px 50px;
+}
+
+/* Copyright Section */
+.copyright {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+#yum{
+    font-size: 20px;
+    font-weight: bold;
+}
+#mugilan{
+    color: red;
+}
+/* Developer Section */
+.developer {
+    font-size: 18px;
+    text-align: center;
+}
